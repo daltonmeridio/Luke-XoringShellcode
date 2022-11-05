@@ -1,4 +1,4 @@
-# Lune-XoringShellcode-
+# Luke-XoringShellcode-
 Script diseñado para la ofuscación de shellcode, útil para la evasión de antivirus  
 
 python kenobi.py
