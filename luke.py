@@ -31,7 +31,7 @@ def Xor_encode(shellcode, key):
 
         if nop == 0:
             print("[*] Limpiando byte null...")
-            nop += 1
+            #nop += 1
         
         key_xor = nop ^ key 
         shell_encode += "\\x"
