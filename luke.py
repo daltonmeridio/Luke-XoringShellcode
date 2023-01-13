@@ -29,7 +29,7 @@ def Xor_encode(shellcode, key):
     for nop in shellcode:
         nop = int(nop, 16)
 
-        if nop == 00:
+        if nop == 0:
             print("[*] Limpiando byte null...")
             nop += 1
         
